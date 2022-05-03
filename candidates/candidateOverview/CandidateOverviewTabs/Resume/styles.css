@@ -1,0 +1,7 @@
+.pg-viewer-wrapper {
+  overflow-y: auto !important;
+}
+
+.pdf-canvas {
+  text-align: center;
+}

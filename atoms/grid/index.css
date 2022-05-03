@@ -1,0 +1,95 @@
+.dx-datagrid-borders .dx-datagrid-rowsview,
+.dx-datagrid-headers+.dx-datagrid-rowsview,
+.dx-datagrid-rowsview.dx-datagrid-after-headers {
+  overflow: auto;
+  max-height: 570px;
+}
+
+.dx-datagrid-rowsview .dx-master-detail-row>.dx-master-detail-cell {
+  padding: 0px 0px 0px 0px;
+}
+
+.dx-widget.dx-visibility-change-handler {
+  max-width: unset !important;
+}
+
+.dx-datagrid .dx-datagrid-headers .dx-header-filter,
+.dx-datagrid .dx-datagrid-headers .dx-header-row>td {
+  border-right: 1px solid #ccc;
+}
+
+.dx-datagrid .dx-datagrid-headers .dx-header-filter,
+.dx-datagrid .dx-datagrid-headers .dx-header-row>td:last-child {
+  border-right: none;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row>td,
+.dx-datagrid-content .dx-datagrid-table .dx-row>tr>td {
+  font-size: 13px;
+}
+
+.dx-datagrid-rowsview .dx-master-detail-row .dx-master-detail-cell,
+.dx-datagrid-rowsview .dx-master-detail-row>.dx-datagrid-group-space {
+  border-top: none;
+  border-bottom: none;
+}
+
+.dx-header-row>td>.dx-datagrid-text-content:not(.dx-sort-indicator):not(.dx-header-filter-indicator) {
+  font-weight: 700;
+  color: rgb(190, 49, 68);
+}
+
+.dx-datagrid-headers {
+  font-weight: 700;
+  color: rgb(190, 49, 68);
+}
+
+.dx-datagrid .dx-datagrid-headers .dx-header-filter,
+.dx-datagrid .dx-datagrid-headers .dx-header-row>td {
+  background-color: rgb(255 232 235);
+  line-height: 24px;
+}
+
+.dx-datagrid .dx-column-lines>td {
+  border-right: none;
+  border-left: none;
+}
+
+.dx-datagrid .dx-column-lines>td td[role='gridcell'] {
+  border-left-style: none !important;
+}
+
+.dx-datagrid-content .dx-datagrid-table .dx-row>td,
+.dx-datagrid-content .dx-datagrid-table .dx-row>tr>td {
+  text-align: left !important;
+}
+
+.dx-sort-up,
+.dx-sort-down {
+  display: none !important;
+}
+
+.dx-master-detail-row .dx-datagrid .dx-datagrid-headers .dx-header-filter,
+.dx-master-detail-row .dx-datagrid .dx-datagrid-headers .dx-header-row>td {
+  background: rgb(255 232 235) 0% 0% no-repeat padding-box;
+}
+
+.dx-master-detail-row .dx-header-row>td>.dx-datagrid-text-content:not(.dx-sort-indicator):not(.dx-header-filter-indicator) {
+  color: rgb(190, 49, 68);
+}
+
+.dx-datagrid-borders>.dx-datagrid-headers,
+.dx-datagrid-borders>.dx-datagrid-rowsview,
+.dx-datagrid-borders>.dx-datagrid-total-footer {
+  border-right: none;
+  border-left: none;
+}
+
+.dx-datagrid-rowsview .dx-datagrid-table .dx-row.dx-freespace-row,
+.dx-datagrid-rowsview .dx-datagrid-table .dx-row.dx-virtual-row {
+  display: none;
+}
+
+.dx-datagrid-table .dx-datagrid-table-fixed {
+  cursor: pointer;
+}
